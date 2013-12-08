@@ -19,6 +19,9 @@
 		4B3695AA184CF0C200B1CDDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B369592184CF0C200B1CDDB /* UIKit.framework */; };
 		4B3695B2184CF0C200B1CDDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B3695B0184CF0C200B1CDDB /* InfoPlist.strings */; };
 		4B3695B4184CF0C200B1CDDB /* e_vaultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3695B3184CF0C200B1CDDB /* e_vaultTests.m */; };
+		4B4DAAF71854B63600F24AB2 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4DAAF61854B63600F24AB2 /* main.storyboard */; };
+		4B4DAAFA1854B68300F24AB2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DAAF91854B68300F24AB2 /* MainViewController.m */; };
+		4B4DAAFC1854E2C700F24AB2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4DAAFB1854E2C700F24AB2 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +45,16 @@
 		4B36959C184CF0C200B1CDDB /* e-vault-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "e-vault-Prefix.pch"; sourceTree = "<group>"; };
 		4B36959D184CF0C200B1CDDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B36959E184CF0C200B1CDDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4B3695A0184CF0C200B1CDDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B3695A0184CF0C200B1CDDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
 		4B3695A6184CF0C200B1CDDB /* e-vaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-vaultTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3695A7184CF0C200B1CDDB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4B3695AF184CF0C200B1CDDB /* e-vaultTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "e-vaultTests-Info.plist"; sourceTree = "<group>"; };
 		4B3695B1184CF0C200B1CDDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B3695B3184CF0C200B1CDDB /* e_vaultTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = e_vaultTests.m; sourceTree = "<group>"; };
+		4B4DAAF61854B63600F24AB2 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		4B4DAAF81854B68300F24AB2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4B4DAAF91854B68300F24AB2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4B4DAAFB1854E2C700F24AB2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4DAAFC1854E2C700F24AB2 /* AudioToolbox.framework in Frameworks */,
 				4B369591184CF0C200B1CDDB /* CoreGraphics.framework in Frameworks */,
 				4B369593184CF0C200B1CDDB /* UIKit.framework in Frameworks */,
 				4B36958F184CF0C200B1CDDB /* Foundation.framework in Frameworks */,
@@ -96,6 +104,7 @@
 		4B36958D184CF0C200B1CDDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B4DAAFB1854E2C700F24AB2 /* AudioToolbox.framework */,
 				4B36958E184CF0C200B1CDDB /* Foundation.framework */,
 				4B369590184CF0C200B1CDDB /* CoreGraphics.framework */,
 				4B369592184CF0C200B1CDDB /* UIKit.framework */,
@@ -109,6 +118,9 @@
 			children = (
 				4B36959D184CF0C200B1CDDB /* AppDelegate.h */,
 				4B36959E184CF0C200B1CDDB /* AppDelegate.m */,
+				4B4DAAF61854B63600F24AB2 /* main.storyboard */,
+				4B4DAAF81854B68300F24AB2 /* MainViewController.h */,
+				4B4DAAF91854B68300F24AB2 /* MainViewController.m */,
 				4B3695A0184CF0C200B1CDDB /* Images.xcassets */,
 				4B369595184CF0C200B1CDDB /* Supporting Files */,
 			);
@@ -220,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B369599184CF0C200B1CDDB /* InfoPlist.strings in Resources */,
+				4B4DAAF71854B63600F24AB2 /* main.storyboard in Resources */,
 				4B3695A1184CF0C200B1CDDB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B36959F184CF0C200B1CDDB /* AppDelegate.m in Sources */,
+				4B4DAAFA1854B68300F24AB2 /* MainViewController.m in Sources */,
 				4B36959B184CF0C200B1CDDB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +457,7 @@
 				4B3695B9184CF0C200B1CDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B3695BA184CF0C200B1CDDB /* Build configuration list for PBXNativeTarget "e-vaultTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +466,7 @@
 				4B3695BC184CF0C200B1CDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
